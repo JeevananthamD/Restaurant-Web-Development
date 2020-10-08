@@ -60,7 +60,7 @@ $(function() { // same as document.addEventListener("DOMContentLoaded", function
   //Menu page
   dc.loadMenuCategories=function() {
     showLoading("#main-content");
-    var homeButton="<a href='Restaurant Project.html'><span class='glyphicon glyphicon-home'></span><br class='hidden-xs'>Home</a>"; // Home button appearance
+    var homeButton="<a href='index.html'><span class='glyphicon glyphicon-home'></span><br class='hidden-xs'>Home</a>"; // Home button appearance
     insertHtml("#homeButton", homeButton);
     menuButtonActive();
     $ajax.sendGetRequest(allCategoriesUrl, function(categoriesResponse) {
