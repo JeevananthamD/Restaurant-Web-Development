@@ -18,7 +18,7 @@ $(function() { // same as document.addEventListener("DOMContentLoaded", function
   var singleCategoryTitleHtml="snippets/single-category-title.html";
   var singleCategoryHtml="snippets/single-category.html";
   var allCategoriesUrl="https://davids-restaurant.herokuapp.com/categories.json";
-  var singleCategoryUrl="http://davids-restaurant.herokuapp.com/menu_items.json?category=";
+  var singleCategoryUrl="https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 
   // Convinience function for inserting innerHTML for selector
   function insertHtml(selector, html) {
